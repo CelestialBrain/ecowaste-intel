@@ -10,18 +10,26 @@ import { eprCompaniesData } from "@/data/epr-companies";
 import { grantsData } from "@/data/grants";
 import { wasteSitesData } from "@/data/pollution";
 import { lguData } from "@/data/lgu";
+import { memberOrgsData } from "@/data/members";
+import { benchmarksData } from "@/data/benchmarks";
+import { revenueStreams } from "@/data/revenue-model";
 
 const dataModules = [
   { href: "/junkshops", label: "Junkshop Directory", count: junkshopsData.length, live: true },
   { href: "/materials", label: "Price Index", count: materialsData.length, live: true },
+  { href: "/value-chain", label: "Value Chain", live: true },
   { href: "/epr", label: "EPR Companies", count: eprCompaniesData.length, live: false },
   { href: "/grants", label: "Grant Opportunities", count: grantsData.length, live: false },
   { href: "/lgu", label: "LGU Compliance", count: lguData.length, live: true },
+  { href: "/members", label: "Member Directory", count: memberOrgsData.length, live: false },
 ];
 
 const intelligence = [
   { href: "/pollution", label: "Pollution Monitor", count: wasteSitesData.length, live: true },
   { href: "/policy", label: "Policy Radar", live: false },
+  { href: "/carbon", label: "Credit Calculator", live: true },
+  { href: "/benchmarks", label: "Benchmarks", count: benchmarksData.length, live: false },
+  { href: "/revenue", label: "Revenue Model", count: revenueStreams.length, live: true },
   { href: "/pulse", label: "EcoWaste Pulse", live: true },
 ];
 
