@@ -1,0 +1,108 @@
+import { EcoWasteActivity } from "@/lib/types";
+
+export const activitiesData: EcoWasteActivity[] = [
+  {
+    id: "act-001",
+    title: "Marine Litter Monitoring Survey — Manila Bay",
+    type: "Project",
+    status: "Completed",
+    description:
+      "3-year survey covering 10 monitoring sites along Manila Bay. Examined litter composition, volume, and seasonal distribution. Final results presented to DENR, LGUs, and partner orgs on March 17, 2026.",
+    partner_orgs: ["DLSU-Dasmarinas Research Team", "OSEAN"],
+    funding_source: "KOICA (Korea International Cooperation Agency)",
+    date_start: "2023-01-01",
+    date_end: "2026-03-17",
+    source_url: "https://www.facebook.com/EWCoalition/",
+  },
+  {
+    id: "act-002",
+    title: "Plastic Free Pilipinas",
+    type: "Campaign",
+    status: "Active",
+    description:
+      "Campaign to eliminate single-use plastics via targeted LGU policy adoption. Recently concluded 3-day MEAL and Communications workshop with network partners.",
+    partner_orgs: ["Plastic Free Pilipinas Network", "GAIA", "Break Free From Plastic"],
+    funding_source: "TBD",
+    date_start: "2022-06-01",
+    date_end: null,
+    source_url: "https://www.ecowastecoalition.org",
+  },
+  {
+    id: "act-003",
+    title: "Lead Safe Paint Certification Campaign",
+    type: "Campaign",
+    status: "Active",
+    description:
+      "Monitoring and publicizing paints that have passed third-party Lead Safe Paint certification. Engaging the Philippine Building and Construction industry to adopt lead-free standards.",
+    partner_orgs: ["IPEN", "DENR-EMB"],
+    funding_source: "IPEN / SAICM",
+    date_start: "2019-01-01",
+    date_end: null,
+    source_url: "https://www.ecowastecoalition.org",
+  },
+  {
+    id: "act-004",
+    title: "Women in Waste Economic Empowerment (WWEE)",
+    type: "Project",
+    status: "Active",
+    description:
+      "Enhancing livelihoods of female waste workers in Metro Manila through skills training, cooperative formation, and market access. Budget: approximately PHP 75M.",
+    partner_orgs: ["Linis Ganda"],
+    funding_source: "USAID (Clean Cities, Blue Ocean)",
+    date_start: "2023-01-01",
+    date_end: null,
+    source_url: "https://www.ecowastecoalition.org",
+  },
+  {
+    id: "act-005",
+    title: "NSWMC NGO Seat",
+    type: "Policy Win",
+    status: "Active",
+    description:
+      "EcoWaste Coalition holds the statutory NGO seat on the National Solid Waste Management Commission, giving direct influence over RA 9003 enforcement and national waste policy direction.",
+    partner_orgs: [],
+    funding_source: "Institutional",
+    date_start: "2005-01-01",
+    date_end: null,
+    source_url: "https://www.ecowastecoalition.org",
+  },
+  {
+    id: "act-006",
+    title: "Safe PCB & E-waste Management Project",
+    type: "Project",
+    status: "Completed",
+    description:
+      "Established the Philippines' first e-waste treatment, storage and disposal (TSD) facility at Brgy. 176, Caloocan City. Developed institutional capacity for PCB phase-out and e-waste management.",
+    partner_orgs: ["UNIDO", "DENR"],
+    funding_source: "Global Environment Facility (GEF)",
+    date_start: "2017-01-01",
+    date_end: "2020-12-31",
+    source_url: "https://www.ecowastecoalition.org",
+  },
+  {
+    id: "act-007",
+    title: "Zero Waste Traslacion 2024",
+    type: "Campaign",
+    status: "Completed",
+    description:
+      "Documented 468 metric tons of garbage from the annual Traslacion procession. Lobbied the Catholic Church and Manila LGU for zero-waste festival protocols and vendor compliance.",
+    partner_orgs: ["Manila LGU", "Catholic Church authorities"],
+    funding_source: "Self-funded",
+    date_start: "2024-01-01",
+    date_end: "2024-01-15",
+    source_url: "https://www.ecowastecoalition.org",
+  },
+  {
+    id: "act-008",
+    title: "RA 11898 (SUP Act) Implementation Monitoring",
+    type: "Campaign",
+    status: "Active",
+    description:
+      "Systematic monitoring of Single-Use Plastics Act compliance across NCR LGUs and commercial establishments. Publishing compliance scorecards and pressing for enforcement.",
+    partner_orgs: ["GAIA", "Zero Waste Alliance Philippines"],
+    funding_source: "Advocacy budget",
+    date_start: "2023-06-01",
+    date_end: null,
+    source_url: "https://www.ecowastecoalition.org",
+  },
+];

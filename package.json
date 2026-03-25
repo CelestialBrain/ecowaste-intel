@@ -1,20 +1,42 @@
 {
-  "name": "ecowaste-init",
+  "name": "ecowaste-intel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape:website": "node scrapers/01-ecowaste-website.js",
+    "scrape:facebook": "node scrapers/02-facebook-posts.js",
+    "scrape:junkshops": "node scrapers/03-google-maps-junkshops.js",
+    "scrape:epr": "node scrapers/04-denr-epr-registry.js",
+    "scrape:olx": "node scrapers/05-olx-prices.js",
+    "scrape:bills": "node scrapers/06-bill-tracker.js",
+    "scrape:aqi": "node scrapers/07-air-quality.js",
+    "scrape:devex": "node scrapers/08-devex-grants.js",
+    "scrape:dumpsites": "node scrapers/09-global-plastic-watch.js",
+    "scrape:all": "npm run scrape:website && npm run scrape:epr && npm run scrape:junkshops && npm run scrape:facebook && npm run scrape:olx && npm run scrape:bills && npm run scrape:aqi && npm run scrape:devex && npm run scrape:dumpsites"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.100.0",
+    "@tanstack/react-query": "^5.95.2",
+    "cheerio": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.6.0",
     "next": "16.2.1",
+    "playwright": "^1.58.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.8.0",
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.21",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

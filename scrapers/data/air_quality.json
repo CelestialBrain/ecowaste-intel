@@ -1,0 +1,1742 @@
+{
+  "scraped_at": "2026-03-25T10:19:54.398Z",
+  "token_type": "custom",
+  "data_quality": "OK",
+  "total_stations": 41,
+  "stations_with_aqi": 41,
+  "stations_detailed": 41,
+  "cities_covered": 13,
+  "ncr_average_aqi": 49,
+  "ncr_average_level": "Good",
+  "city_readings": [
+    {
+      "city": "Valenzuela",
+      "station_name": "Valenzuela CENRO (ARCA North)",
+      "aqi": 68,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 69,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.69158,
+      "lng": 120.972459,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 4,
+      "station_names": [
+        "Valenzuela CENRO (ARCA North)",
+        "3S Center Ugong",
+        "3S Center Bagbaguin",
+        "3S Center Paso De Blas"
+      ]
+    },
+    {
+      "city": "Malabon",
+      "station_name": "Malabon Action Center",
+      "aqi": 67,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 67,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.669158920946344,
+      "lng": 120.97575508465562,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 1,
+      "station_names": [
+        "Malabon Action Center"
+      ]
+    },
+    {
+      "city": "Navotas",
+      "station_name": "Gen. Luna St. corner Gov. Pascual Ave.",
+      "aqi": 62,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 65,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.669631,
+      "lng": 120.946759,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 2,
+      "station_names": [
+        "Gen. Luna St. corner Gov. Pascual Ave.",
+        "Barangay Tanza 2 Hall"
+      ]
+    },
+    {
+      "city": "Caloocan",
+      "station_name": "Baltazar Street",
+      "aqi": 60,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 26,
+        "pm10": 12,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.64799638229,
+      "lng": 120.97788065672,
+      "last_updated": "2026-03-25T10:16:58Z",
+      "source": "Citizen Science project sensor.community, World Air Quality Index Project",
+      "stations_in_city": 5,
+      "station_names": [
+        "C3 Road (5th Avenue) - Rizal Avenue Extension",
+        "Monumento, Caloocan",
+        "Caloocan Sports Complex",
+        "Baltazar Street",
+        "Barangay San Rafael Hall"
+      ]
+    },
+    {
+      "city": "Makati",
+      "station_name": "Kalayaan Avenue  - South Avenue Intersection",
+      "aqi": 55,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 72,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.5688,
+      "lng": 121.017952,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 4,
+      "station_names": [
+        "Kalayaan Avenue  - South Avenue Intersection",
+        "Makati Avenue  - Antonio Arnaiz Avenue Intersection",
+        "Makati Avenue - Buendia Avenue Intersection",
+        "J.P. Rizal Avenue corner Pertierra"
+      ]
+    },
+    {
+      "city": "Marikina",
+      "station_name": "Marikina Sports Complex",
+      "aqi": 54,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 57,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.634097,
+      "lng": 121.098029,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 2,
+      "station_names": [
+        "Marikina Sports Complex",
+        "Barangay Fortune - Santan Street"
+      ]
+    },
+    {
+      "city": "Mandaluyong",
+      "station_name": "Mandaluyong City",
+      "aqi": 51,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 74,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.584554314748889,
+      "lng": 121.01876814665941,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 4,
+      "station_names": [
+        "Mandaluyong City",
+        "J.P. Rizal Avenue corner Camia",
+        "Old Wack Wack Road corner Shaw Boulevard",
+        "Mandaluyong Elementary School"
+      ]
+    },
+    {
+      "city": "Quezon City",
+      "station_name": "Near Katipunan Ave., Quezon City",
+      "aqi": 50,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 50,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.638415,
+      "lng": 121.076703,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 1,
+      "station_names": [
+        "Near Katipunan Ave., Quezon City"
+      ]
+    },
+    {
+      "city": "Pasay",
+      "station_name": "Aurora Boulevard (Tramo) - Andrews Avenue",
+      "aqi": 45,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 52,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.529036,
+      "lng": 121.004715,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 6,
+      "station_names": [
+        "Aurora Boulevard (Tramo) - Andrews Avenue",
+        "Pasay-Taft",
+        "Bradco Ave. cor Macapagal",
+        "Barangay Tambo - Quirino Avenue",
+        "Santa Clara - Pasay City General Hospital",
+        "World Trade Center"
+      ]
+    },
+    {
+      "city": "San Juan",
+      "station_name": "San Juan Mini Park",
+      "aqi": 45,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 48,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.60399460444948,
+      "lng": 121.02780921650638,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 2,
+      "station_names": [
+        "San Juan Mini Park",
+        "Ortigas Avenue-Roosevelt Intersection"
+      ]
+    },
+    {
+      "city": "Pasig",
+      "station_name": "Ortigas",
+      "aqi": 35,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 43,
+        "pm10": null,
+        "o3": null,
+        "no2": 6,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.58853,
+      "lng": 121.05822,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 6,
+      "station_names": [
+        "Sto. Rosario Bridge",
+        "Pateros Bridge",
+        "ASMPH",
+        "Ortigas",
+        "Along Shaw Blvd.",
+        "Unnamed (DNVBA1576 → AL739RG7)"
+      ]
+    },
+    {
+      "city": "Paranaque",
+      "station_name": "Near Sucat Interchange/Exit",
+      "aqi": 28,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 28,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.456269,
+      "lng": 121.045694,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 2,
+      "station_names": [
+        "Near Sucat Interchange/Exit",
+        "Barangay San Antonio - Parañaque-Sucat Road (Shopwise)"
+      ]
+    },
+    {
+      "city": "Muntinlupa",
+      "station_name": "Barangay Tunasan - Maharlika Highway (SM Center Muntinlupa)",
+      "aqi": 18,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 22,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.378532,
+      "lng": 121.046153,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project",
+      "stations_in_city": 2,
+      "station_names": [
+        "Barangay Tunasan - Maharlika Highway (SM Center Muntinlupa)",
+        "Barangay Buli - Concepcion Street"
+      ]
+    }
+  ],
+  "all_station_readings": [
+    {
+      "city": "Pasig",
+      "station_name": "Sto. Rosario Bridge",
+      "aqi": 25,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 25,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.549386,
+      "lng": 121.072644,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Makati",
+      "station_name": "Kalayaan Avenue  - South Avenue Intersection",
+      "aqi": 72,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 72,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.5688,
+      "lng": 121.017952,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasay",
+      "station_name": "Aurora Boulevard (Tramo) - Andrews Avenue",
+      "aqi": 52,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 52,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.529036,
+      "lng": 121.004715,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Caloocan",
+      "station_name": "C3 Road (5th Avenue) - Rizal Avenue Extension",
+      "aqi": 61,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 61,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.644431447196313,
+      "lng": 120.98408600000003,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Valenzuela",
+      "station_name": "Valenzuela CENRO (ARCA North)",
+      "aqi": 69,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 69,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.69158,
+      "lng": 120.972459,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Paranaque",
+      "station_name": "Near Sucat Interchange/Exit",
+      "aqi": 28,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 28,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.456269,
+      "lng": 121.045694,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasig",
+      "station_name": "Pateros Bridge",
+      "aqi": 32,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 32,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.545701,
+      "lng": 121.065142,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "San Juan",
+      "station_name": "San Juan Mini Park",
+      "aqi": 48,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 48,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.60399460444948,
+      "lng": 121.02780921650638,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasig",
+      "station_name": "ASMPH",
+      "aqi": 34,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 34,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.59083,
+      "lng": 121.070368,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Caloocan",
+      "station_name": "Monumento, Caloocan",
+      "aqi": 75,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 75,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.657436,
+      "lng": 120.98362,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Paranaque",
+      "station_name": "Barangay San Antonio - Parañaque-Sucat Road (Shopwise)",
+      "aqi": 27,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 27,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.456707700000003,
+      "lng": 121.0351867,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "San Juan",
+      "station_name": "Ortigas Avenue-Roosevelt Intersection",
+      "aqi": 42,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 42,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.6034578,
+      "lng": 121.04448164,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Marikina",
+      "station_name": "Marikina Sports Complex",
+      "aqi": 57,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 57,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.634097,
+      "lng": 121.098029,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Caloocan",
+      "station_name": "Caloocan Sports Complex",
+      "aqi": 76,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 76,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.750967,
+      "lng": 121.020422,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Valenzuela",
+      "station_name": "3S Center Ugong",
+      "aqi": 63,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 63,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.693972,
+      "lng": 121.009194,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Valenzuela",
+      "station_name": "3S Center Bagbaguin",
+      "aqi": 68,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 68,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.714046,
+      "lng": 121.000876,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasig",
+      "station_name": "Ortigas",
+      "aqi": 43,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 43,
+        "pm10": null,
+        "o3": null,
+        "no2": 6,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.58853,
+      "lng": 121.05822,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Makati",
+      "station_name": "Makati Avenue  - Antonio Arnaiz Avenue Intersection",
+      "aqi": 38,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 38,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.5507,
+      "lng": 121.022211,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Mandaluyong",
+      "station_name": "Mandaluyong City",
+      "aqi": 74,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 74,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.584554314748889,
+      "lng": 121.01876814665941,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Navotas",
+      "station_name": "Gen. Luna St. corner Gov. Pascual Ave.",
+      "aqi": 65,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 65,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.669631,
+      "lng": 120.946759,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Mandaluyong",
+      "station_name": "J.P. Rizal Avenue corner Camia",
+      "aqi": 33,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 33,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.567462,
+      "lng": 121.039293,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasay",
+      "station_name": "Pasay-Taft",
+      "aqi": 12,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 12,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.537698,
+      "lng": 121.000941,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasay",
+      "station_name": "Bradco Ave. cor Macapagal",
+      "aqi": 47,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 47,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.529173,
+      "lng": 120.989878,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Quezon City",
+      "station_name": "Near Katipunan Ave., Quezon City",
+      "aqi": 50,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 50,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.638415,
+      "lng": 121.076703,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Caloocan",
+      "station_name": "Baltazar Street",
+      "aqi": 26,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 26,
+        "pm10": 12,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.64799638229,
+      "lng": 120.97788065672,
+      "last_updated": "2026-03-25T10:16:58Z",
+      "source": "Citizen Science project sensor.community, World Air Quality Index Project"
+    },
+    {
+      "city": "Caloocan",
+      "station_name": "Barangay San Rafael Hall",
+      "aqi": 61,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 61,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.636658247708848,
+      "lng": 120.96414410671407,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Malabon",
+      "station_name": "Malabon Action Center",
+      "aqi": 67,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 67,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.669158920946344,
+      "lng": 120.97575508465562,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Valenzuela",
+      "station_name": "3S Center Paso De Blas",
+      "aqi": 73,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 73,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.7107144,
+      "lng": 120.9954476,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Mandaluyong",
+      "station_name": "Old Wack Wack Road corner Shaw Boulevard",
+      "aqi": 38,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 38,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.5873438,
+      "lng": 121.0466469,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasig",
+      "station_name": "Along Shaw Blvd.",
+      "aqi": 42,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 42,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.578627142575819,
+      "lng": 121.05674819930258,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasig",
+      "station_name": "Unnamed (DNVBA1576 → AL739RG7)",
+      "aqi": 33,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 33,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.563834349896222,
+      "lng": 121.05797009999878,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Mandaluyong",
+      "station_name": "Mandaluyong Elementary School",
+      "aqi": 60,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 60,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.586549,
+      "lng": 121.025494,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Navotas",
+      "station_name": "Barangay Tanza 2 Hall",
+      "aqi": 58,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 58,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.675077,
+      "lng": 120.939888,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Muntinlupa",
+      "station_name": "Barangay Tunasan - Maharlika Highway (SM Center Muntinlupa)",
+      "aqi": 22,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 22,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.378532,
+      "lng": 121.046153,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Makati",
+      "station_name": "Makati Avenue - Buendia Avenue Intersection",
+      "aqi": 46,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 46,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.561274,
+      "lng": 121.027993,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasay",
+      "station_name": "Barangay Tambo - Quirino Avenue",
+      "aqi": 52,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 52,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.517695,
+      "lng": 120.996383,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasay",
+      "station_name": "Santa Clara - Pasay City General Hospital",
+      "aqi": 72,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 72,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.548484,
+      "lng": 121.000531,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Pasay",
+      "station_name": "World Trade Center",
+      "aqi": 36,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 36,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.551575,
+      "lng": 120.98649,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Marikina",
+      "station_name": "Barangay Fortune - Santan Street",
+      "aqi": 50,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 50,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.661147702562708,
+      "lng": 121.12475934066968,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Muntinlupa",
+      "station_name": "Barangay Buli - Concepcion Street",
+      "aqi": 13,
+      "aqi_level": "Good",
+      "aqi_color": "#009966",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 13,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.4448071,
+      "lng": 121.045861,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    },
+    {
+      "city": "Makati",
+      "station_name": "J.P. Rizal Avenue corner Pertierra",
+      "aqi": 62,
+      "aqi_level": "Moderate",
+      "aqi_color": "#ffde33",
+      "dominant_pollutant": "pm25",
+      "pollutants": {
+        "pm25": 62,
+        "pm10": null,
+        "o3": null,
+        "no2": null,
+        "so2": null,
+        "co": null
+      },
+      "weather": {
+        "temperature": null,
+        "humidity": null,
+        "wind": null
+      },
+      "lat": 14.568382,
+      "lng": 121.02845,
+      "last_updated": "2026-03-25T09:00:00Z",
+      "source": "Clarity, World Air Quality Index Project"
+    }
+  ],
+  "all_stations_raw": [
+    {
+      "uid": -544750,
+      "station_name": "Sto. Rosario Bridge",
+      "aqi": 25,
+      "lat": 14.549386,
+      "lng": 121.072644
+    },
+    {
+      "uid": -544810,
+      "station_name": "Kalayaan Avenue  - South Avenue Intersection",
+      "aqi": 72,
+      "lat": 14.5688,
+      "lng": 121.017952
+    },
+    {
+      "uid": -544831,
+      "station_name": "Aurora Boulevard (Tramo) - Andrews Avenue",
+      "aqi": 52,
+      "lat": 14.529036,
+      "lng": 121.004715
+    },
+    {
+      "uid": -544789,
+      "station_name": "C3 Road (5th Avenue) - Rizal Avenue Extension",
+      "aqi": 61,
+      "lat": 14.644431447196313,
+      "lng": 120.98408600000003
+    },
+    {
+      "uid": -544756,
+      "station_name": "Valenzuela CENRO (ARCA North)",
+      "aqi": 69,
+      "lat": 14.69158,
+      "lng": 120.972459
+    },
+    {
+      "uid": -534718,
+      "station_name": "Near Sucat Interchange/Exit",
+      "aqi": 28,
+      "lat": 14.456269,
+      "lng": 121.045694
+    },
+    {
+      "uid": -544795,
+      "station_name": "Pateros Bridge",
+      "aqi": 32,
+      "lat": 14.545701,
+      "lng": 121.065142
+    },
+    {
+      "uid": -544753,
+      "station_name": "San Juan Mini Park",
+      "aqi": 48,
+      "lat": 14.60399460444948,
+      "lng": 121.02780921650638
+    },
+    {
+      "uid": -547255,
+      "station_name": "ASMPH",
+      "aqi": 34,
+      "lat": 14.59083,
+      "lng": 121.070368
+    },
+    {
+      "uid": -540706,
+      "station_name": "Monumento, Caloocan",
+      "aqi": 75,
+      "lat": 14.657436,
+      "lng": 120.98362
+    },
+    {
+      "uid": -544819,
+      "station_name": "Barangay San Antonio - Parañaque-Sucat Road (Shopwise)",
+      "aqi": 27,
+      "lat": 14.456707700000003,
+      "lng": 121.0351867
+    },
+    {
+      "uid": -544771,
+      "station_name": "Ortigas Avenue-Roosevelt Intersection",
+      "aqi": 42,
+      "lat": 14.6034578,
+      "lng": 121.04448164
+    },
+    {
+      "uid": -544783,
+      "station_name": "Marikina Sports Complex",
+      "aqi": 57,
+      "lat": 14.634097,
+      "lng": 121.098029
+    },
+    {
+      "uid": -544786,
+      "station_name": "Caloocan Sports Complex",
+      "aqi": 76,
+      "lat": 14.750967,
+      "lng": 121.020422
+    },
+    {
+      "uid": -544813,
+      "station_name": "3S Center Ugong",
+      "aqi": 63,
+      "lat": 14.693972,
+      "lng": 121.009194
+    },
+    {
+      "uid": -544807,
+      "station_name": "3S Center Bagbaguin",
+      "aqi": 68,
+      "lat": 14.714046,
+      "lng": 121.000876
+    },
+    {
+      "uid": -499006,
+      "station_name": "Ortigas",
+      "aqi": 43,
+      "lat": 14.58853,
+      "lng": 121.05822
+    },
+    {
+      "uid": -544834,
+      "station_name": "Makati Avenue  - Antonio Arnaiz Avenue Intersection",
+      "aqi": 38,
+      "lat": 14.5507,
+      "lng": 121.022211
+    },
+    {
+      "uid": -522307,
+      "station_name": "Mandaluyong City",
+      "aqi": 74,
+      "lat": 14.584554314748889,
+      "lng": 121.01876814665941
+    },
+    {
+      "uid": -544798,
+      "station_name": "Gen. Luna St. corner Gov. Pascual Ave.",
+      "aqi": 65,
+      "lat": 14.669631,
+      "lng": 120.946759
+    },
+    {
+      "uid": -544759,
+      "station_name": "J.P. Rizal Avenue corner Camia",
+      "aqi": 33,
+      "lat": 14.567462,
+      "lng": 121.039293
+    },
+    {
+      "uid": -522301,
+      "station_name": "Pasay-Taft",
+      "aqi": 12,
+      "lat": 14.537698,
+      "lng": 121.000941
+    },
+    {
+      "uid": -540703,
+      "station_name": "Bradco Ave. cor Macapagal",
+      "aqi": 47,
+      "lat": 14.529173,
+      "lng": 120.989878
+    },
+    {
+      "uid": -540709,
+      "station_name": "Near Katipunan Ave., Quezon City",
+      "aqi": 50,
+      "lat": 14.638415,
+      "lng": 121.076703
+    },
+    {
+      "uid": -538831,
+      "station_name": "Baltazar Street",
+      "aqi": 26,
+      "lat": 14.64799638229,
+      "lng": 120.97788065672
+    },
+    {
+      "uid": -544801,
+      "station_name": "Barangay San Rafael Hall",
+      "aqi": 61,
+      "lat": 14.636658247708848,
+      "lng": 120.96414410671407
+    },
+    {
+      "uid": -544765,
+      "station_name": "Malabon Action Center",
+      "aqi": 67,
+      "lat": 14.669158920946344,
+      "lng": 120.97575508465562
+    },
+    {
+      "uid": -544780,
+      "station_name": "3S Center Paso De Blas",
+      "aqi": 73,
+      "lat": 14.7107144,
+      "lng": 120.9954476
+    },
+    {
+      "uid": -544837,
+      "station_name": "Old Wack Wack Road corner Shaw Boulevard",
+      "aqi": 38,
+      "lat": 14.5873438,
+      "lng": 121.0466469
+    },
+    {
+      "uid": -534712,
+      "station_name": "Along Shaw Blvd.",
+      "aqi": 42,
+      "lat": 14.578627142575819,
+      "lng": 121.05674819930258
+    },
+    {
+      "uid": -544792,
+      "station_name": "Unnamed (DNVBA1576 → AL739RG7)",
+      "aqi": 33,
+      "lat": 14.563834349896222,
+      "lng": 121.05797009999878
+    },
+    {
+      "uid": -544804,
+      "station_name": "Mandaluyong Elementary School",
+      "aqi": 60,
+      "lat": 14.586549,
+      "lng": 121.025494
+    },
+    {
+      "uid": -544777,
+      "station_name": "Barangay Tanza 2 Hall",
+      "aqi": 58,
+      "lat": 14.675077,
+      "lng": 120.939888
+    },
+    {
+      "uid": -544828,
+      "station_name": "Barangay Tunasan - Maharlika Highway (SM Center Muntinlupa)",
+      "aqi": 22,
+      "lat": 14.378532,
+      "lng": 121.046153
+    },
+    {
+      "uid": -544822,
+      "station_name": "Makati Avenue - Buendia Avenue Intersection",
+      "aqi": 46,
+      "lat": 14.561274,
+      "lng": 121.027993
+    },
+    {
+      "uid": -544762,
+      "station_name": "Barangay Tambo - Quirino Avenue",
+      "aqi": 52,
+      "lat": 14.517695,
+      "lng": 120.996383
+    },
+    {
+      "uid": -544774,
+      "station_name": "Santa Clara - Pasay City General Hospital",
+      "aqi": 72,
+      "lat": 14.548484,
+      "lng": 121.000531
+    },
+    {
+      "uid": -544843,
+      "station_name": "World Trade Center",
+      "aqi": 36,
+      "lat": 14.551575,
+      "lng": 120.98649
+    },
+    {
+      "uid": -544825,
+      "station_name": "Barangay Fortune - Santan Street",
+      "aqi": 50,
+      "lat": 14.661147702562708,
+      "lng": 121.12475934066968
+    },
+    {
+      "uid": -544840,
+      "station_name": "Barangay Buli - Concepcion Street",
+      "aqi": 13,
+      "lat": 14.4448071,
+      "lng": 121.045861
+    },
+    {
+      "uid": -544768,
+      "station_name": "J.P. Rizal Avenue corner Pertierra",
+      "aqi": 62,
+      "lat": 14.568382,
+      "lng": 121.02845
+    }
+  ],
+  "legend": {
+    "0-50": "Good (Green)",
+    "51-100": "Moderate (Yellow)",
+    "101-150": "Unhealthy for Sensitive Groups (Orange)",
+    "151-200": "Unhealthy (Red)",
+    "201-300": "Very Unhealthy (Purple)",
+    "300+": "Hazardous (Maroon)"
+  }
+}

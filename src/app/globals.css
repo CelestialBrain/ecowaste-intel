@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
+/* ── Light Mode (Default) — Cream Editorial ── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-base: #faf8f4;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f3f1ec;
+  --bg-overlay: #ebe8e2;
+  --border-subtle: #e8e5de;
+  --border-default: #d6d2c9;
+  --border-strong: #b8b3a8;
+  --accent: #16a34a;
+  --accent-dim: #15803d;
+  --accent-muted: #dcfce7;
+  --accent-glow: rgba(22, 163, 74, 0.08);
+  --text-primary: #1a1a1a;
+  --text-secondary: #5c5c5c;
+  --text-muted: #9ca3af;
+  --text-inverse: #ffffff;
+  --data-red: #dc2626;
+  --data-amber: #d97706;
+  --data-blue: #2563eb;
+  --data-purple: #7c3aed;
+  --font-display: "DM Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-ui: "DM Sans", system-ui, sans-serif;
+  --r-sm: 2px;
+  --r-md: 4px;
+  --r-lg: 8px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Dark Mode ── */
+[data-theme="dark"] {
+  --bg-base: #090d09;
+  --bg-surface: #0f1610;
+  --bg-elevated: #172018;
+  --bg-overlay: #1e2b1f;
+  --border-subtle: #1e2b1e;
+  --border-default: #2a3d2a;
+  --border-strong: #3d5c3d;
+  --accent: #4ade80;
+  --accent-dim: #22c55e;
+  --accent-muted: #166534;
+  --accent-glow: rgba(74, 222, 128, 0.12);
+  --text-primary: #edf7ed;
+  --text-secondary: #7da87d;
+  --text-muted: #3d5c3d;
+  --text-inverse: #090d09;
+  --data-red: #f87171;
+  --data-amber: #fbbf24;
+  --data-blue: #60a5fa;
+  --data-purple: #a78bfa;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.6;
 }
+
+/* Leaflet overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: var(--bg-base);
+}
+.leaflet-popup-content-wrapper {
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--border-default) !important;
+  border-radius: var(--r-md) !important;
+  color: var(--text-primary) !important;
+  box-shadow: none !important;
+}
+.leaflet-popup-tip {
+  background: var(--bg-surface) !important;
+}
+.leaflet-popup-close-button {
+  color: var(--text-muted) !important;
+}
+
+/* Recharts overrides */
+.recharts-cartesian-grid line {
+  stroke: var(--border-subtle) !important;
+}
+.recharts-text {
+  fill: var(--text-muted) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 10px !important;
+}
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: var(--bg-elevated) !important;
+  border: 1px solid var(--border-default) !important;
+  border-radius: var(--r-md) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 12px !important;
+}
+
+/* Page mount animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-section {
+  animation: fadeUp 300ms ease-out both;
+}
+.animate-section:nth-child(1) { animation-delay: 0ms; }
+.animate-section:nth-child(2) { animation-delay: 60ms; }
+.animate-section:nth-child(3) { animation-delay: 120ms; }
+.animate-section:nth-child(4) { animation-delay: 180ms; }
+.animate-section:nth-child(5) { animation-delay: 240ms; }
+.animate-section:nth-child(6) { animation-delay: 300ms; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }

@@ -1,0 +1,560 @@
+{
+  "scraped_at": "2026-03-25T10:14:42.237Z",
+  "base_url": "https://www.ecowastecoalition.org",
+  "total_entries": 6,
+  "member_orgs_found": 118,
+  "entries": [
+    {
+      "id": "web-001",
+      "title": "Campaigns",
+      "type": "Campaign",
+      "status": "Active",
+      "description": "We inform and encourage Filipino consumers to minimize the environmental, climate and social impacts of their consumption pattern, through timely eco-advisories towards simple, low-carbon and non-toxic living. We raise public awareness and alertness on chemicals in products, wastes and surroundings that can jeopardize human and environmental health. The Coalition focuses on dioxins, polychlorinated biphenyls and other persistent organic pollutants (POPs); lead, mercury and other heavy metals; an",
+      "partner_orgs": [],
+      "funding_source": "",
+      "date_start": "",
+      "date_end": null,
+      "source_url": "https://www.ecowastecoalition.org/campaigns"
+    },
+    {
+      "id": "web-002",
+      "title": "News and Media",
+      "type": "Media Mention",
+      "status": "Active",
+      "description": "Copyright © 2022 Ecowaste Coalition.",
+      "partner_orgs": [],
+      "funding_source": "",
+      "date_start": "",
+      "date_end": null,
+      "source_url": "https://www.ecowastecoalition.org/news"
+    },
+    {
+      "id": "web-003",
+      "title": "Press Releases",
+      "type": "Media Mention",
+      "status": "Active",
+      "description": "Copyright © 2022 Ecowaste Coalition.",
+      "partner_orgs": [],
+      "funding_source": "",
+      "date_start": "",
+      "date_end": null,
+      "source_url": "https://www.ecowastecoalition.org/press-releases"
+    },
+    {
+      "id": "web-004",
+      "title": "Press Releases",
+      "type": "Media Mention",
+      "status": "Active",
+      "description": "Copyright © 2022 Ecowaste Coalition.",
+      "partner_orgs": [],
+      "funding_source": "",
+      "date_start": "",
+      "date_end": null,
+      "source_url": "https://www.ecowastecoalition.org/press-releases/"
+    },
+    {
+      "id": "web-005",
+      "title": "About Us",
+      "type": "Partnership",
+      "status": "Active",
+      "description": "The Ecological Waste Coalition of the Philippines (EcoWaste Coalition) is a public interest network of community, church, school, environmental and health groups united by the common goal to end wasting through the promotion of environmental justice and stewardship. The EcoWaste Coalition defines Zero Waste or “Walang Aksaya” as “the synergy of principles, cultures, beliefs, systems, methods and technologies that aims to eliminate wasting and ensure full and beneficial use of resources to restor",
+      "partner_orgs": [
+        "Zero Waste"
+      ],
+      "funding_source": "",
+      "date_start": "",
+      "date_end": null,
+      "source_url": "https://www.ecowastecoalition.org/about"
+    },
+    {
+      "id": "web-006",
+      "title": "Our Members",
+      "type": "Partnership",
+      "status": "Active",
+      "description": "Advocates for Environmental & Social Justice (AESJ)\nWeb:  aesjphilippines.wordpress.com\nFacebook: facebook.com/aesj.manila Aksyon Klima\nWeb: aksyonklima.ph\nFacebook: facebook.com/aksyonklimapilipinas Arugaan\nFacebook: facebook.com/Arugaan-1691994124373498",
+      "partner_orgs": [
+        "Zero Waste",
+        "Greenpeace",
+        "Mother Earth Foundation"
+      ],
+      "funding_source": "FPE",
+      "date_start": "",
+      "date_end": null,
+      "source_url": "https://www.ecowastecoalition.org/members"
+    }
+  ],
+  "member_organizations": [
+    {
+      "name": "Facebook",
+      "url": "http://facebook.com/EWCoalition"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/EWCoalition"
+    },
+    {
+      "name": "Who We Are\n\n\tAbout Us\tMeet the Team\tPeople and Partners",
+      "url": "https://www.ecowastecoalition.org/who-we-are/"
+    },
+    {
+      "name": "About Us",
+      "url": "https://www.ecowastecoalition.org/who-we-are/about-us/"
+    },
+    {
+      "name": "Meet the Team",
+      "url": "https://www.ecowastecoalition.org/meet-the-team/"
+    },
+    {
+      "name": "People and Partners",
+      "url": "https://www.ecowastecoalition.org/people-and-partners/"
+    },
+    {
+      "name": "What We Do",
+      "url": "https://www.ecowastecoalition.org/what-we-do/"
+    },
+    {
+      "name": "News and Media\n\n\tPress Releases\tArticles\tUpcoming Events",
+      "url": "https://www.ecowastecoalition.org/news-and-media/"
+    },
+    {
+      "name": "Press Releases",
+      "url": "https://www.ecowastecoalition.org/press-releases/"
+    },
+    {
+      "name": "Articles",
+      "url": "https://www.ecowastecoalition.org/articles/"
+    },
+    {
+      "name": "Upcoming Events",
+      "url": "https://www.ecowastecoalition.org/upcoming-events/"
+    },
+    {
+      "name": "Tools and Resources\n\n\tCampaign Materials\tFact Sheets\tPosters\tWebinar Recordings\tReports and Publications",
+      "url": "https://www.ecowastecoalition.org/tools-and-resources/"
+    },
+    {
+      "name": "Campaign Materials",
+      "url": "https://www.ecowastecoalition.org/campaign-materials/"
+    },
+    {
+      "name": "Fact Sheets",
+      "url": "https://www.ecowastecoalition.org/fact-sheets/"
+    },
+    {
+      "name": "Posters",
+      "url": "https://www.ecowastecoalition.org/posters/"
+    },
+    {
+      "name": "Webinar Recordings",
+      "url": "https://www.ecowastecoalition.org/webinar-recordings/"
+    },
+    {
+      "name": "Reports and Publications",
+      "url": "https://www.ecowastecoalition.org/reports-and-publications/"
+    },
+    {
+      "name": "Get Involved\n\n\tDonate\tBe a Member\tCareers",
+      "url": "https://www.ecowastecoalition.org/get-involved/"
+    },
+    {
+      "name": "Donate",
+      "url": "https://www.ecowastecoalition.org/donate/"
+    },
+    {
+      "name": "Be a Member",
+      "url": "https://www.ecowastecoalition.org/be-a-member/"
+    },
+    {
+      "name": "Careers",
+      "url": "https://www.ecowastecoalition.org/careers/"
+    },
+    {
+      "name": "Advocates for Environmental & Social Justice (AESJ)",
+      "url": ""
+    },
+    {
+      "name": "Web:  aesjphilippines.wordpress.com",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/aesj.manila",
+      "url": ""
+    },
+    {
+      "name": "Aksyon Klima",
+      "url": ""
+    },
+    {
+      "name": "Web: aksyonklima.ph",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/aksyonklimapilipinas",
+      "url": ""
+    },
+    {
+      "name": "Arugaan",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Arugaan-1691994124373498",
+      "url": ""
+    },
+    {
+      "name": "Ayala Foundation Inc.",
+      "url": ""
+    },
+    {
+      "name": "Web: ayalafoundation.org",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/ayalafoundation",
+      "url": ""
+    },
+    {
+      "name": "Ban Toxics",
+      "url": ""
+    },
+    {
+      "name": "Web: bantoxics.org",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/bantoxics",
+      "url": ""
+    },
+    {
+      "name": "Batong Sandigan Development Foundation",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/batongsandigan2017",
+      "url": ""
+    },
+    {
+      "name": "Buklod Tao Inc.",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/BuklodTao",
+      "url": ""
+    },
+    {
+      "name": "Care Foundation",
+      "url": ""
+    },
+    {
+      "name": "Web: thecarefoundation.org",
+      "url": ""
+    },
+    {
+      "name": "Catholic Educational Association of the Philippines (CEAP)",
+      "url": ""
+    },
+    {
+      "name": "Web: ceap.org.ph",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/CatholicEdPH",
+      "url": ""
+    },
+    {
+      "name": "Center for Ecozoic Living and Learning",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/centerforecozoic",
+      "url": ""
+    },
+    {
+      "name": "Childrens Helper Project Inc.",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Childrens-Helper-Project-Inc-1030029927056164",
+      "url": ""
+    },
+    {
+      "name": "Columban Missionaries – JPIC",
+      "url": ""
+    },
+    {
+      "name": "Web: columbans.ie/mission-outreach/jpic",
+      "url": ""
+    },
+    {
+      "name": "Consumer Rights for Safe Food",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/safeandnutritiousfood",
+      "url": ""
+    },
+    {
+      "name": "Cordillera Green Network",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Cordillera-Green-Network-102560756455347",
+      "url": ""
+    },
+    {
+      "name": "Cycling Advocates",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Cycling-Advocates-Cycad-108372049202316",
+      "url": ""
+    },
+    {
+      "name": "Diocese of Imus Ministry of Ecology (DIMEC)",
+      "url": ""
+    },
+    {
+      "name": "Web: imusdiocese.weebly.com",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Diocese-of-Imus-Ministry-in-Ecology-399796443696664",
+      "url": ""
+    },
+    {
+      "name": "EARTH – UST",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/EARTHUST",
+      "url": ""
+    },
+    {
+      "name": "Foundation for Sustainable Society Inc",
+      "url": ""
+    },
+    {
+      "name": "Web: fssi.com.ph",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/FSSI.Philippines",
+      "url": ""
+    },
+    {
+      "name": "Foundation for the Philippine Environment",
+      "url": ""
+    },
+    {
+      "name": "Web: fpe.ph",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Foundation-for-the-Philippine-Environment-293704674043",
+      "url": ""
+    },
+    {
+      "name": "Girl Scout of the Philippines",
+      "url": ""
+    },
+    {
+      "name": "Web: girlscouts.org.ph",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/girlscoutsofthephilippines",
+      "url": ""
+    },
+    {
+      "name": "Greenpeace- Southeast Asia",
+      "url": ""
+    },
+    {
+      "name": "Web: greenpeace.org/seasia/ph",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/GreenpeaceSEA",
+      "url": ""
+    },
+    {
+      "name": "Health Care Without Harm – Southeast Asia",
+      "url": ""
+    },
+    {
+      "name": "Web: noharm.org",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/HCWHAsia",
+      "url": ""
+    },
+    {
+      "name": "INAM Philippines",
+      "url": ""
+    },
+    {
+      "name": "Web: integratibmedisin.org",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/inamphilippines",
+      "url": ""
+    },
+    {
+      "name": "Interact Club of Kaunlaran High School",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/interactkaunlaran3800",
+      "url": ""
+    },
+    {
+      "name": "Kilus Foundation",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/kilusfoundation",
+      "url": ""
+    },
+    {
+      "name": "Malikhaing Landas Na Magpapayabong Sa Sining at Kultura (MALAYA)",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/malayacavite",
+      "url": ""
+    },
+    {
+      "name": "Ministry sa Pangangalagang Kalikasan – Muling Pagkabuhay Parish",
+      "url": ""
+    },
+    {
+      "name": "Web: novalichesdiocese.org/parishes/pp/",
+      "url": ""
+    },
+    {
+      "name": "Miriam Public Education and Awareness Campaign for the Environment (PEACE)",
+      "url": ""
+    },
+    {
+      "name": "Web: mc.edu.ph/AdvocacyCenters/EnvironmentalStudiesInstitute",
+      "url": ""
+    },
+    {
+      "name": "Mother Earth Foundation",
+      "url": ""
+    },
+    {
+      "name": "Web: motherearthphil.org",
+      "url": ""
+    },
+    {
+      "name": "National Secretariat for Social Action (NASSA-CBSP)",
+      "url": ""
+    },
+    {
+      "name": "Web: nassa.org.ph",
+      "url": ""
+    },
+    {
+      "name": "Philippine Greens",
+      "url": ""
+    },
+    {
+      "name": "Web: rverzola.wordpress.com/philippine-greens",
+      "url": ""
+    },
+    {
+      "name": "Philippine Rural Reconstruction Movement (PRRM)",
+      "url": ""
+    },
+    {
+      "name": "Web: prrm.org",
+      "url": ""
+    },
+    {
+      "name": "Pusod Incorporated",
+      "url": ""
+    },
+    {
+      "name": "Web: pusod.org",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/PusodInc",
+      "url": ""
+    },
+    {
+      "name": "Sagip Pasig Movement",
+      "url": ""
+    },
+    {
+      "name": "Web: sagipasigmovement.wordpress.com",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/pg/Sagip-Pasig-Movement-143857787066",
+      "url": ""
+    },
+    {
+      "name": "Sagip Sierra Madre Environmental Society Inc",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/Sagip-Sierra-Madre-Environmental-Society-Inc-SSMESI-234010039942516",
+      "url": ""
+    },
+    {
+      "name": "San Lorenzo Ruiz Parish- Urban Poor Ministry",
+      "url": ""
+    },
+    {
+      "name": "Web: urbanpoorministry.blogspot.com",
+      "url": ""
+    },
+    {
+      "name": "Sanib Lakas ng mga Aktibong Lingkod sa Inang Kalikasan (SALIKA)",
+      "url": ""
+    },
+    {
+      "name": "Web: salika.8m.net",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/salikanatayo",
+      "url": ""
+    },
+    {
+      "name": "SARILAYA- Cavite",
+      "url": ""
+    },
+    {
+      "name": "Web: sarilaya.wordpress.com",
+      "url": ""
+    },
+    {
+      "name": "Shoreline Kabalikat sa Kaunlaran Inc.",
+      "url": ""
+    },
+    {
+      "name": "Web: shorelinekabalikat.weebly.com",
+      "url": ""
+    },
+    {
+      "name": "Tanggol Kalikasan",
+      "url": ""
+    },
+    {
+      "name": "Web: tanggolkalikasan.com",
+      "url": ""
+    },
+    {
+      "name": "Zero Waste Recycling Movement of the Philippines Foundation",
+      "url": ""
+    },
+    {
+      "name": "Facebook: facebook.com/zwrmpfi",
+      "url": ""
+    }
+  ]
+}
