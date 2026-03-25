@@ -5,15 +5,18 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import { junkshopsData } from "@/data/junkshops";
+import { materialsData } from "@/data/materials";
 import { eprCompaniesData } from "@/data/epr-companies";
-import { wasteSitesData } from "@/data/pollution";
 import { grantsData } from "@/data/grants";
+import { wasteSitesData } from "@/data/pollution";
+import { lguData } from "@/data/lgu";
 
 const dataModules = [
   { href: "/junkshops", label: "Junkshop Directory", count: junkshopsData.length, live: true },
-  { href: "/materials", label: "Material Prices", live: false },
+  { href: "/materials", label: "Price Index", count: materialsData.length, live: true },
   { href: "/epr", label: "EPR Companies", count: eprCompaniesData.length, live: false },
   { href: "/grants", label: "Grant Opportunities", count: grantsData.length, live: false },
+  { href: "/lgu", label: "LGU Compliance", count: lguData.length, live: true },
 ];
 
 const intelligence = [
@@ -224,40 +227,6 @@ export default function Sidebar() {
         </div>
       </aside>
 
-      {/* Mobile bottom tabs */}
-      <div
-        className="md:hidden fixed bottom-0 left-0 right-0 z-50 flex"
-        style={{ background: "var(--bg-surface)", borderTop: "1px solid var(--border-subtle)" }}
-      >
-        {[
-          { href: "/", label: "Home" },
-          { href: "/junkshops", label: "Map" },
-          { href: "/materials", label: "Prices" },
-          { href: "/pollution", label: "AQI" },
-          { href: "/pulse", label: "Pulse" },
-        ].map((t) => (
-          <Link
-            key={t.href}
-            href={t.href}
-            className="flex-1 flex flex-col items-center py-2"
-            style={{
-              fontFamily: "var(--font-mono)",
-              fontSize: 9,
-              letterSpacing: "0.05em",
-              color: isActive(t.href) ? "var(--accent)" : "var(--text-muted)",
-            }}
-          >
-            <span
-              className="w-1 h-1 rounded-full mb-1"
-              style={{
-                background: isActive(t.href) ? "var(--accent)" : "transparent",
-                boxShadow: isActive(t.href) ? "0 0 4px var(--accent)" : "none",
-              }}
-            />
-            {t.label}
-          </Link>
-        ))}
-      </div>
     </>
   );
 }

@@ -16,13 +16,18 @@ export interface Material {
   id: string;
   name: string;
   short_name: string;
-  category: "Plastic" | "Metal" | "Paper";
+  category: "Plastic" | "Metal" | "Paper" | "Glass" | "E-waste";
   buy_price_php_per_kg: number;
   sell_price_php_per_kg: number;
+  middleman_margin_pct: number;
+  lme_benchmark_php: number | null;
+  price_gap_php: number | null;
   trend_label: string;
   trend_direction: "up" | "down" | "flat";
   last_updated: string;
   source: string;
+  notes: string;
+  plastic_credit_value_php?: number | null;
 }
 
 export interface EPRCompany {
@@ -60,4 +65,18 @@ export interface EcoWasteActivity {
   date_start: string;
   date_end: string | null;
   source_url: string;
+}
+
+export interface LGU {
+  id: string;
+  city: string;
+  population: number;
+  barangays_total: number;
+  barangays_with_mrf: number;
+  mrf_compliance_pct: number;
+  swm_plan_status: "Compliant" | "Partial" | "Non-compliant" | "Expired";
+  estimated_waste_tpd: number;
+  opportunity_score: number;
+  priority: "High" | "Medium" | "Low";
+  notes: string;
 }

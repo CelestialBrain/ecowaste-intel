@@ -35,7 +35,7 @@ export default function RootLayout({
       <body className="min-h-full flex">
         <ThemeProvider>
           <Sidebar />
-          <main className="flex-1 md:ml-0 mt-12 md:mt-0 mb-14 md:mb-0 overflow-auto">
+          <main className="flex-1 md:ml-0 mt-12 md:mt-0 overflow-auto">
             <div className="p-6 md:px-10 md:py-8 max-w-[1400px]">{children}</div>
           </main>
         </ThemeProvider>

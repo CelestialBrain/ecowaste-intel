@@ -8,7 +8,8 @@ import { grantsData } from "@/data/grants";
 import { activitiesData } from "@/data/activities";
 import { billsData } from "@/data/bills";
 import { aqiData, wasteSitesData } from "@/data/pollution";
-import { MapPin, TrendingUp, Building2, HandCoins, Activity, Scale, Wind } from "lucide-react";
+import { lguData, NCR_STATS } from "@/data/lgu";
+import { MapPin, TrendingUp, Building2, HandCoins, Activity, Scale, Wind, Landmark } from "lucide-react";
 
 export default function Home() {
   const totalJunkshops = junkshopsData.length;
@@ -68,6 +69,12 @@ export default function Home() {
       title: "Pollution Monitor",
       desc: `AQI tracking + ${wasteSiteCount} waste sites mapped in NCR`,
       icon: Wind,
+    },
+    {
+      href: "/lgu",
+      title: "LGU Compliance",
+      desc: `${lguData.length} NCR LGUs — RA 9003 compliance gap + revenue calculator`,
+      icon: Landmark,
     },
     {
       href: "/pulse",
@@ -153,10 +160,10 @@ export default function Home() {
         <StatStrip
           cells={[
             {
-              value: totalJunkshops,
+              value: `${totalJunkshops}`,
               label: "Junkshops Mapped",
-              delta: "NCR coverage",
-              deltaColor: "muted",
+              delta: `~${NCR_STATS.estimated_junkshops_ncr.toLocaleString()} estimated total`,
+              deltaColor: "up",
               accent: "live",
             },
             {
@@ -200,9 +207,16 @@ export default function Home() {
               {
                 value: avgAqi || "N/A",
                 label: "NCR AQI",
-                delta: avgAqi > 100 ? "Unhealthy" : "Moderate",
-                deltaColor: avgAqi > 100 ? "down" : "warn",
-                accent: avgAqi > 100 ? "alert" : "warn",
+                delta: avgAqi > 100 ? "Unhealthy" : avgAqi > 50 ? "Moderate" : "Good",
+                deltaColor: avgAqi > 100 ? "down" : avgAqi > 50 ? "warn" : "up",
+                accent: avgAqi > 100 ? "alert" : avgAqi > 50 ? "warn" : "live",
+              },
+              {
+                value: `${NCR_STATS.ncr_mrf_compliance_pct}%`,
+                label: "NCR MRF Compliance",
+                delta: `${NCR_STATS.ncr_barangays_with_mrf} of ${NCR_STATS.ncr_barangays_total.toLocaleString()} barangays`,
+                deltaColor: "down",
+                accent: "alert",
               },
             ]}
           />
